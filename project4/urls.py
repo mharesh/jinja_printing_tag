@@ -21,4 +21,5 @@ from details.views import *
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('about/',about,name='about'),
+    path('new/',new,name='new'),
 ]
